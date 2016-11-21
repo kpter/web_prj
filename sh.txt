@@ -1,0 +1,7 @@
+rm -f .bash* .profile
+git clone https://github.com/kpter/stepic_web_project.git /home/box
+git pull
+bash init.sh
+
+curl http://127.0.0.1:8080/?a=bcd
+curl http://127.0.0.1/hello/?a=bcd
